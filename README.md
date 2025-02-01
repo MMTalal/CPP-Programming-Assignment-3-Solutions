@@ -317,11 +317,11 @@ This repository contains solutions to a series of programming assignments design
 
   - **Output**:
     ```
+         ******
         ******
        ******
       ******
      ******
-    ******
     ******
     ```
 
