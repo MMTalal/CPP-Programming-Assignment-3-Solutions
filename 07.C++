@@ -48,11 +48,40 @@ int main() {  // The main function where the program execution starts
                     case 8 : word = "Eight "+ word; // Append "Eight" to the beginning of the word string
                     break;
                     case 9 : word = "Nine "+ word; // Append "Nine" to the beginning of the word string
+                    break;
+                    default : word = "invalid"+ word; // Append "invalid" to the beginning of the word string
                 }
             }
 
             // Print the final word representation of the number
-            cout << word; 
+            cout << word;
+
+            // best solution: input number in the char array and using loop then switch-case
+            /*
+            char number[100];
+            cin >> number;
+
+            int i = 0;
+            while(number[i] != '\0')
+            {
+                switch (number[i])
+                {
+                    case 0: cout << "zero"; break;
+                    case 1: cout << "one"; break;
+                    case 2: cout << "two"; break;
+                    case 3: cout << "three"; break;
+                    case 4: cout << "four"; break;
+                    case 5: cout << "five"; break;
+                    case 6: cout << "six"; break;
+                    case 7: cout << "seven"; break;
+                    case 8: cout << "eight"; break;
+                    case 9: cout << "nine"; break;
+                    defult: cout << "invalid char";
+                }
+                i++;
+            }
+            */
+
     }
     return 0;  // Return 0 to indicate that the program executed successfully
 }
