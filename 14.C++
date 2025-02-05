@@ -61,6 +61,12 @@ int main() {
             cout << arr[i] << " ";
         }
     }
-    
+
+    // best solution: after make loop to cin for array make another loop to multiply -1 for the array then you can make another loop for cout to display the result // don't use if condition
+
+    /*
+    arr[i] = arr[i] * -1
+    */
+
     return 0; // Indicate successful program termination.
 }
