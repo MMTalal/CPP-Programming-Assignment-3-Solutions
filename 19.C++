@@ -70,5 +70,22 @@ int main() {
         cout << "Element not found in the array." << endl;
     }
 
+    // best solution after user input the array you can conitnue his position (index-1) depening on the index of arr[i] then you can cout the arr[i]
+    /*
+    int pos
+    cin >> pos;
+
+    pos = pos - 1; // to get index from user
+
+    for (int i = 0; i < 0; i++)
+    {
+        if (i == pos)
+        {
+            continue;
+        }
+        cout << arr[i] << " ";
+    }
+    */
+
     return 0;  // Indicate successful program execution
 }
