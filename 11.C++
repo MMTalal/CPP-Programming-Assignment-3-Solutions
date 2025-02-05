@@ -17,8 +17,8 @@ int main() {
     }
     
     // Initialize max1 and max2 to store the first and second maximum values.
-    int max1 = 0; // Variable to store the maximum number found in the array.
-    int max2 = 0; // Variable to store the second maximum number.
+    int max1 = INT64_MIN; // Variable to store the maximum number found in the array.
+    int max2 = INT64_MIN; // Variable to store the second maximum number.
     
     // First loop: Find the maximum value in the array.
     for (int i = 0; i < 10; i++) 
